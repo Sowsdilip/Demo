@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message><header><msg-id><![CDATA[SUQ6MzIzMDMyMzQzMDMxMzAzMjMxMzEzMDM4MzAzNjM4MzkzMTM5MzkzNDM5MzYzNDMy]]></msg-id><msg-type>NBHMessageListener</msg-type><send-time>N/A</send-time><receiver>N/A</receiver><C_BK_GROUP_ID>NEDBANK</C_BK_GROUP_ID><C_CNTY_CODE>ZA</C_CNTY_CODE><response-type/><response-queue-id/><feedBack>0</feedBack><jndi-res-flag/></header><msg-body><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<message xsi:noNamespaceSchemaLocation="FINAL_XSD.xsd" GAPI_NAME="ApplyforGuarantee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <msg-selector>
+    <send/>
+  </msg-selector>
+  <send-item/>
+  <msg-state>
+    <send-state>ok</send-state>
+    <recv-state/>
+    <recv-err-info/>
+  </msg-state>
+  <header>
+    <gapi-resend>N</gapi-resend>
+    <trx-type>RE</trx-type>
+    <event-name>Transaction</event-name>
+    <function-id>F05030700826</function-id>
+    <trx-date>2023-07-24</trx-date>
+    <trx-user>OP01</trx-user>
+    <module>OWGT</module>
+    <bank-grp>NEDBANK</bank-grp>
+    <country>ZA</country>
+    <main-ref>OGPE0003522</main-ref>
+    <trx-ref>OGPE00035252</trx-ref>
+    <event-times>1</event-times>
+    <unti-code>0927</unti-code>
+  </header>
+  <msg-header>
+    <msg-seq-no/>
+    <interface-mapping-name>ApplyforGuarantee</interface-mapping-name>
+    <gapi-type>MQ</gapi-type>
+    <gapi-type-value/>
+    <msg-os-id>BKTS</msg-os-id>
+    <msg-os-intf-id>OWGT.001.GteeApplctn</msg-os-intf-id>
+    <send-queue-id/>
+    <recv-queue-id/>
+    <time-out/>
+    <time-out-ack-delay/>
+    <msg-format/>
+    <reformat-class/>
+    <msg-id>4522</msg-id>
+  </msg-header>
+  <out-adp-header>
+    <C_OTH_SYS_KEY>NEDBANK_ZA_OWGT_OGPE0003512_1</C_OTH_SYS_KEY>
+  </out-adp-header>
+  <out-msg-content>
+    <CEMainRef>41KKKDNCE2028</CEMainRef>
+	<BPMMainRef>41KKKDNCE2028</BPMMainRef>
+    <CustId>NBH_28098</CustId>
+    <ApplctnDt/>
+    <EstablishBy>MAIL</EstablishBy>
+    <GteeFrmt>OTHER FORMAT</GteeFrmt>
+    <TpOfGtee>performance guarantee</TpOfGtee>
+    <BnfcryNm>BRIAN</BnfcryNm>
+    <BnfcryAdr1>213 Mike Complex</BnfcryAdr1>
+    <BnfcryAdr2>214 Silver street</BnfcryAdr2>
+    <BnfcryAdr3>JohannesBurg</BnfcryAdr3>
+    <BnfcryBkId/>
+    <BnfcryBkSwAdr/>
+    <BnfcryBkNm/>
+    <BnfcryBkAdr1/>
+    <BnfcryBkAdr2/>
+    <BnfcryBkAdr3/>
+    <CtctDtls>Contract 123</CtctDtls>
+    <ForAcctOfNm> TEST FOR ACCOUNT</ForAcctOfNm>
+    <ForAcctOfAdr1>FOR ACCOUNT1</ForAcctOfAdr1>
+	<ForAcctOfAdr2>FOR ACCOUNT2</ForAcctOfAdr2>
+	<ForAcctOfAdr3>FOR ACCOUNT3</ForAcctOfAdr3>
+    <CtrctNo>Contract 234</CtrctNo>
+    <CtrctCcy/>
+    <CtrctAmt/>
+    <GteeCcy>USD</GteeCcy>
+    <GteeAmt>347.12</GteeAmt>
+    <DtlsOfCtrct>Contract Details 1234</DtlsOfCtrct>
+    <ExpType/>
+    <DtOfExp>2031-09-03</DtOfExp>
+    <PlcOfExp>DUBAI</PlcOfExp>
+    <ChrgsCcy/>
+    <ChrgsAcct/>
+    <GteeWord>Gurantee wording 123</GteeWord>
+    <CustInstr>Electricity Guarantee </CustInstr>
+    <CurSts/>
+    <NxtSts/>
+    <ApplNm>NBH_28098 TEST</ApplNm>
+    <ApplId>NBH_28098</ApplId>
+    <SYS_CBC_LIMIT_CONT/>
+    <BnfcryAcct>1234567890</BnfcryAcct>
+    <BnfcryRef>BenRef123</BnfcryRef>
+    <ClmAcct>123456789123</ClmAcct>
+    <ClmAcctNm>TEST</ClmAcctNm>
+    <PlgAcct>123456789123</PlgAcct>
+    <PlgAcctNm>TEST</PlgAcctNm>
+    <notes>noting the notes</notes>
+    <MSG_TYPE>OWGT.001.GteeApplctn</MSG_TYPE>
+  </out-msg-content>
+  <in-adp-header/>
+  <in-msg-content/>
+  <party>
+<swiftAddresses>
+<swiftAddress>
+<swf_FMT_NM>SWIT ADD1</swf_FMT_NM>
+<swift_FMT_ADD2>SWIFT ADD12</swift_FMT_ADD2>
+<swift_FMT_ADD3>SWIFT ADD23</swift_FMT_ADD3>
+<swift_FMT_ADD1>SWFIT ADD34</swift_FMT_ADD1>
+</swiftAddress>
+</swiftAddresses>
+<postalAddresses>
+<postalAddress>
+<postal_FMT_ADD>RAMACHANDRAPURAM522454</postal_FMT_ADD>
+</postalAddress>
+</postalAddresses>
+<c_MAIN_REF>NBH_28098</c_MAIN_REF>
+<fa_CUST_CNTY_NM>USA</fa_CUST_CNTY_NM>
+<lang_CD>English</lang_CD>
+<party_NM>NBH DULLA</party_NM>
+<cust_CATA>RETAIL_BANKING_CLIENT</cust_CATA>
+<cust_CITY>RAMACHANDRAPURAM98</cust_CITY>
+<email_ADD>TEST@CHINASYSTEM.COM</email_ADD>
+<fin_BRANCH>6786</fin_BRANCH>
+<tel_NO>90000058384</tel_NO>
+<cust_CORR_MED>Email</cust_CORR_MED>
+<party_FULL_NM>KEDARNATH SATYANARAYANA</party_FULL_NM>
+<sa_TAX_NO>6454</sa_TAX_NO>
+<fa_CUST_PROV>TET</fa_CUST_PROV>
+<vat_NO>3456</vat_NO>
+<fax_NO>345</fax_NO>
+<fa_CUST_BK_NM>STATE BANK OF hyd</fa_CUST_BK_NM>
+<bk_BR_CODE>4567</bk_BR_CODE>
+<res_OR_NONRES>NonResident</res_OR_NONRES>
+<sub_CATA>K</sub_CATA>
+<comp_REG_NO>5345334</comp_REG_NO>
+<sub_URB>SUB</sub_URB>
+<cnty_CODE>USR</cnty_CODE>
+<cust_TYPE>ENTITY</cust_TYPE>
+<ned_BRANCH>8998</ned_BRANCH>
+<post_CODE>53454</post_CODE>
+<ac_OFFICER_CODE>5676</ac_OFFICER_CODE>
+<fa_CUST_BK_BRCH_NM>RCPM</fa_CUST_BK_BRCH_NM>
+<cust_STREET_NM>VADREVU STREET</cust_STREET_NM>
+</party>
+</message>]]></msg-body></message>
